@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>デモサイト</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+</head>
+<body>
+<header class="header clearfix">
+  <h1 class="title"><a href="#">illustration</a></h1>
+  <nav class="headernav">
+    <ul>
+      <li><a href="">About</a></li>
+      <li><a href="">Works</a></li>
+      <li><a href="">News</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="main">
+  <div class="main-wrapper">
+    <section class="top-img">
+      <div class="slide">
+        <img id="main-img" src="img/slide/img1.jpg">
+      </div>
+      <div class="toolbar">
+        <div class="nav clearfix">
+          <div id="prev"></div>
+          <span id="slidepage"></span>
+          <div id="next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="heading">ABOUT</h2>
+      <div class="about-description clearfix">
+        <img src=img/a.jpg>
+        <p>
+          Name:〇〇<br>
+          2007年よりイラストを学ぶ<br>
+          2015年〇〇学校卒業<br>
+          2015年よりフリーで活動を始める
+        </p>
+      </div>
+    </section>
+    <section class="works">
+      <h2 class="heading">WORKS</h2>
+      <h3 class="mini-heading">fashionn illust</h3>
+      <div class="worksimage clearfix">
+        <div id="main-img" class="worksmainimg">
+          <img src="img/fashion/img1.jpg" id="bigimg">
+        </div>
+        <div class="worksthumbimg">
+        <ul id="thum-img">
+          <li><img src="img/fashion/thumb-img1.jpg" class="thumb" data-image="img/fashion/img1.jpg"></li>
+          <li><img src="img/fashion/thumb-img2.jpg" class="thumb" data-image="img/fashion/img2.jpg"></li>
+          <li><img src="img/fashion/thumb-img3.jpg" class="thumb" data-image="img/fashion/img3.jpg"></li>
+          <li><img src="img/fashion/thumb-img4.jpg" class="thumb" data-image="img/fashion/img4.jpg"></li>
+          <li><img src="img/fashion/thumb-img5.jpg" class="thumb" data-image="img/fashion/img5.jpg"></li>
+          <li><img src="img/fashion/thumb-img6.jpg" class="thumb" data-image="img/fashion/img6.jpg"></li>
+          <li><img src="img/fashion/thumb-img7.jpg" class="thumb" data-image="img/fashion/img7.jpg"></li>
+          <li><img src="img/fashion/thumb-img8.jpg" class="thumb" data-image="img/fashion/img8.jpg"></li>
+          <li><img src="img/fashion/thumb-img9.jpg" class="thumb" data-image="img/fashion/img9.jpg"></li>
+        </ul>
+      </div>
+      </div>
+      <h3 class="mini-heading">portrait</h3>
+      <div class="portraitimages clearfix">
+       <div class="imgsample">
+        <img src="img/portrait/img1.jpg">
+        <div class="mask">
+          <p class="caption">A様カップル</p>
+        </div>
+       </div>
+       <div class="imgsample">
+        <img src="img/portrait/img2.jpg">
+        <div class="mask">
+          <p class="caption">B様カップル</p>
+        </div>
+       </div>
+       <div class="imgsample">
+        <img src="img/portrait/img3.jpg">
+        <div class="mask">
+          <p class="caption">C様カップル</p>
+        </div>
+       </div>
+      </div>
+      <h3 class="mini-heading">wedding board</h3>
+      <div class="weddingimg">
+      <div class="imgsample">
+       <img src="img/weddingboard/img1.jpg">
+       <div class="mask">
+         <p class="caption">D様ご夫妻</p>
+       </div>
+      </div>
+    </div>
+    </section>
+    <section class="news">
+      <h2 class="heading">News</h2>
+      <div class="news-inner">
+      <p>下記SNSにて随時、活動のご報告をしております</p>
+      <ul class="followsns">
+        <li class="fb">
+          <a href=""  name="Facebook">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+        </li>
+        <li class="tw">
+          <a href="" name="Twitter">
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </a>
+        </li>
+        <li class="ig">
+          <a href="" name="Instagram">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+      </div>
+    </section>
+    <section class="contact">
+      <h2 class="heading">Contact</h2>
+      <p class="description">制作の依頼・ご相談などお気軽にお問い合わせくださいませ。<br>
+        下記フォームよりわかる範囲でご記入ください。必須の項目は必ずご記入お願いします。</p>
+      <form>
+        <div class="cp_iptxt">
+        <p class="must">*必須</p>
+        <lavel class="ef">
+        <input type="text" name="name" placeholder="お名前" autocomplete="off">
+        </lavel>
+        </div>
+        <div class="cp_iptxt">
+        <p class="must">*必須</p>
+        <lavel class="ef">
+        <input type="text" name="name" placeholder="メールアドレス" autocomplete="off">
+        </lavel>
+        </div>
+        <div class="cp_iptxt">
+        <lavel class="ef">
+        <input type="text" name="name" placeholder="電話番号" autocomplete="off">
+        </lavel>
+        </div>
+        <div class="cp_iptxt toiawase">
+        <p class="must">*必須</p>
+        <p>お問い合わせ内容</p>
+        <textarea name="kanso" rows="30" cols="80" placeholder=""></textarea>
+        </div>
+        <div class="cp_iptxt">
+        <input type="submit" value="内容を送信する">
+      </div>
+       </form>
+    </section>
+  </div>
+</main>
+<footer class="footer">
+  <div class="footer-inner clearfix">
+    <h1 class="title"><a href="#">illustration</a></h1>
+    <p>© ILLUSTRATION All rights reserved.</p>
+  </div>
+</footer>
+  <script src="sample.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script>
+  </script>
+</body>
+</html>
